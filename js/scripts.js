@@ -5,29 +5,33 @@ this.name = name;
 this.topping = topping;
 this.size = size;
 }
+function fullOrder (pizzaOutput) {
+ this.pizzaOutput = [];
+ }
 
 Pizza.prototype.cost = function() {
-  if (this.topping === 0 && this.size === 0) {
-    return 5;
-  } else if (this.topping === 0 && this.size === 1) {
-    return 7;
-  } else if (this.topping === 0 && this.size === 2) {
-    return 9;
-  } else if (this.topping === 1 && this.size === 0) {
-    return 6;
-  } else if (this.topping === 1 && this.size === 1) {
-    return 8;
-  } else if (this.topping === 1 && this.size === 2) {
-    return 10;
-  } else if (this.topping === 2 && this.size === 0) {
-    return 5.50;
-  } else if (this.topping === 2 && this.size === 1) {
-    return 7.50;
-  } else if (this.topping === 2 && this.size === 2) {
-    return 9.50;
+  if (this.topping === "Pepperoni" && this.size === "Small") {
+    this.cost = 5;
+  } else if (this.topping === "Pepperoni" && this.size === "Medium") {
+      this.cost = 7;
+  } else if (this.topping === "Pepperoni" && this.size === "Large") {
+      this.cost = 9;
+  } else if (this.topping === "Chicken" && this.size === "Small") {
+      this.cost = 6;
+  } else if (this.topping === "Chicken" && this.size === "Medium") {
+      this.cost = 8;
+  } else if (this.topping === "Chicken" && this.size === 2) {
+      this.cost = 10;
+  } else if (this.topping === "Pineapple" && this.size === 0) {
+      this.cost = 5.50;
+  } else if (this.topping === "Pineapple" && this.size === 1) {
+      this.cost = 7.50;
+  } else if (this.topping === "Pineapple" && this.size === 2) {
+      this.cost = 9.50;
+      console.log(this.cost)
   }
 }
-var pizzaOutput = [];
+
 
 //User-interface logic
 $(document).ready(function(){
