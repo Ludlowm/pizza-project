@@ -1,21 +1,21 @@
 Specifications:
 
-program will have pizza objects with the topping types and size
+program will allow user to enter name and click to order
 
-Example input: N/A
-Example output: Large pizza, Pepperoni and chicken.
+Example input: Marko
+Example output: Marko
 
-Program will have prototype for the pizza objects named Cost that will calculate the cost based on the pizza object above.
+Program will allow user to select size of pizza.
 
-Example Input: {Pepperoni, Large, [1] price}
-Example Output: price = $10.00;
+Example Input: Small
+Example Output: Small
 
-User will input their topping, and size of pizza and receive the price of their pizza back after clicking on submit button.
+Program will allow user to select topping of pizza.
 
-Example Input: {pepperoni, large}
-Example Output: price = $10.00 but in the UI!;
+Example Input: Pepperoni
+Example Output: Pepperoni
 
-User will have the ability to buy multiple pizzas and see the ticket details for each.
+Program will adjust price based on order of pizza (size and topping).
 
-Example Input: {Pepperoni, large [2], price}, 
-Example Output: {Cost: $20.00 for 2 large pepperoni pizzas};
+Example Input: Small, Pepperoni
+Example Output: 5.50
