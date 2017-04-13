@@ -1,24 +1,24 @@
-Specifications:
+## Specifications:
 
-program will allow user to enter name and click to order
+_program will allow user to enter name and click to order_
 
-Example input: Marko
-Example output: Marko
+*Example input: Marko
+*Example output: Marko
 
-Program will allow user to select size of pizza.
+_Program will allow user to select size of pizza._
 
-Example Input: Small
-Example Output: Small
+*Example Input: Small
+*Example Output: Small
 
-Program will allow user to select topping of pizza.
+_Program will allow user to select topping of pizza._
 
-Example Input: Pepperoni
-Example Output: Pepperoni
+*Example Input: Pepperoni
+*Example Output: Pepperoni
 
-Program will adjust price based on order of pizza (size and topping).
+_Program will adjust price based on order of pizza (size and topping)._
 
-Example Input: Small, Pepperoni
-Example Output: 5.50
+*Example Input: Small, Pepperoni
+*Example Output: 5.50
 
 # _Pizza-Project_
 
